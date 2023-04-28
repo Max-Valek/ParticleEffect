@@ -11,7 +11,8 @@ import SwiftUI
 struct ParticleEffectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
+                .preferredColorScheme(.dark)
         }
     }
 }
